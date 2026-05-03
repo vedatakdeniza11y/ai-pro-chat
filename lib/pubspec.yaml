@@ -1,0 +1,28 @@
+name: vedat_ai
+description: VEDAT AI - Yapay Zeka Sohbet
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Uygulama ismi buradan geliyor
+  android:
+    package: com.vedat.ai
+  ios:
+    bundle_identifier: com.vedat.ai
