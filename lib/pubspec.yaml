@@ -1,5 +1,5 @@
 name: vedat_ai
-description: VEDAT AI - Yapay Zeka Sohbet
+description: VEDAT AI - Yapay Zeka Sohbet Uygulaması
 
 publish_to: 'none'
 
@@ -20,9 +20,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # Uygulama ismi buradan geliyor
-  android:
-    package: com.vedat.ai
-  ios:
-    bundle_identifier: com.vedat.ai
